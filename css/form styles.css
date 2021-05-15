@@ -1,0 +1,174 @@
+body
+{
+	margin:0px;
+}
+
+.intro_1
+{
+	display: flex;
+	justify-content: space-around;
+	width: 100vw;
+	height: 6em;
+}
+
+.intro_2
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 40em;
+	height: 6em;
+}
+
+.intrito
+{
+	text-align: center;
+	color: black;
+	font-size: 1.5em;
+	font-family: Cambria;
+}
+
+.cuerpo
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+
+.part_1, .part_2, .part_3
+{
+	display: flex;
+	justify-content: space-around;
+	margin:1em;
+}
+
+.ind_nav
+{
+	width: 100vw;
+	height: 5em;
+	background-color: green;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav_1
+{
+	width: 7em;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.nav_1 button
+{
+	width: 4em;
+	height: 4em;
+}
+
+.opcions /*imagen del nav_1*/
+{
+	width: 80%;
+	height: 60%;
+}
+
+.nav_2
+{
+	width: 25em;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.nav_2 span
+{
+	text-align: center;
+	color: white;
+	font-family: Comic Sans MS, Arial;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.nav_3
+{
+	width: 14em;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.registrese /*botón derecho del nav*/
+{
+	width: 13em;
+	height: 3em;
+	background-color: orange;
+}
+
+.registrese a
+{
+	color: white;
+	font-size: 1.5em;
+	font-family: Calibri, Arial;
+	text-decoration: none;
+	text-align: center;
+}
+
+.llenar_1, .llenar_2, .llenar_3, .llenar_4, .llenar_5, .llenar_6, .llenar_7, .llenar_8, .llenar_9
+{
+	margin:1em;
+	border-color: black;
+	border-width: 50px;
+	border-radius: 1em;
+	background-color: turquoise;
+}
+
+.cuerpo
+{
+	margin:1em;
+	background-color: lavender;
+	border-radius: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.item_1
+{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.enviar_boton
+{
+	display: flex;
+	justify-content: center;
+}
+
+.enviar_boton button
+{
+	border:none;
+	width: 4em;
+	height: 2em;
+	color: white;
+	font-family: Comic Sans MS, Arial;
+	background-color: firebrick;
+}
+
+footer
+{
+	width: 100vw;
+	height: 6em;
+	background-color: lightgreen;
+	font-family: Comic Sans MS, Arial;
+	font-size: 1.5em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
